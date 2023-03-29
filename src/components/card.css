@@ -1,0 +1,30 @@
+.cards {
+  height: 30vh;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  width: 96%;
+  grid-gap: 1%;
+}
+
+.card {
+  color: #fff;
+  box-shadow: 3px 3px 15px rgb(219, 205, 205);
+  border-top: 5px solid rgb(23, 23, 15) !important;
+  padding-bottom: 12px;
+  background-color: transparent !important;
+}
+
+.card-text {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.cards-footer {
+  display: flex;
+  justify-content: end;
+  gap: 12px;
+}
+
+.cards-footer i {
+  cursor: pointer;
+}
